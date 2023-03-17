@@ -1,6 +1,16 @@
 .regular {
+  &__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 48px;
+    padding-bottom: 60px;
+    color: #bb2339;
+  }
   &__list {
+    padding-bottom: 70px;
     &--item {
+      color: #242424;
       transition: all 2s ease;
       &:hover {
         background-color: #ff0000;

@@ -101,7 +101,19 @@
   color: #bb2339;
 }
 
+.regular__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+  padding-bottom: 60px;
+  color: #bb2339;
+}
+.regular__list {
+  padding-bottom: 70px;
+}
 .regular__list--item {
+  color: #242424;
   transition: all 2s ease;
 }
 .regular__list--item:hover {
