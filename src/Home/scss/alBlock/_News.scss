@@ -1,0 +1,33 @@
+.news {
+  padding-top: 120px;
+ &__item{
+    max-width: 410px;
+    width: 100%;
+    border: 1px solid rgba(36, 36, 36, 0.1);
+    border-radius: 14px;
+ }
+  &__text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    padding-bottom: 25px;
+    color: #242424;
+  }
+  &__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 130%;
+    color: #bb2339;
+    padding-bottom: 60px;
+  }
+  &__btn{
+    font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 16px;
+border: none;
+color: #BB2339;
+  }
+}

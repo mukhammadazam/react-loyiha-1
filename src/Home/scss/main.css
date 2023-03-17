@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 @font-face {
   font-family: "Cera Round Pro";
   src: url(../../fonts/Fontspring-DEMO-ceraroundpro-regular.otf);
@@ -208,7 +212,7 @@
   right: -50px;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
   .Happy-site {
     width: 428px;
   }
@@ -218,4 +222,37 @@
   .carousel-control-prev-icon {
     background-color: red;
   }
+}
+.news {
+  padding-top: 120px;
+}
+.news__item {
+  max-width: 410px;
+  width: 100%;
+  border: 1px solid rgba(36, 36, 36, 0.1);
+  border-radius: 14px;
+}
+.news__text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  padding-bottom: 25px;
+  color: #242424;
+}
+.news__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 130%;
+  color: #bb2339;
+  padding-bottom: 60px;
+}
+.news__btn {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  border: none;
+  color: #BB2339;
 }/*# sourceMappingURL=main.css.map */
