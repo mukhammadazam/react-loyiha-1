@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import logo from './imges/logo.svg'
 function BasicExample() {
     return (
-        <Navbar bg="danger" expand="md" >
+        <Navbar className='fixed-top' bg="danger" expand="md" >
             <Container>
                 <Navbar.Brand href="#home"><img src={logo} /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />

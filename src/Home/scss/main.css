@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Cera Round Pro";
+  src: url(../../fonts/Fontspring-DEMO-ceraroundpro-regular.otf);
+}
+.hero {
+  padding-top: 171px;
+  padding-bottom: 300px;
+}
+.hero__leni {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  padding-bottom: 25px;
+}
+.hero__title {
+  font-family: "Cera Round Pro";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 130%;
+  max-width: 555px;
+  width: 100%;
+  padding-bottom: 20px;
+}
+.hero__text {
+  max-width: 453px;
+  padding-bottom: 40px;
+}
+.hero__btn {
+  padding: 8px 32px;
+  box-sizing: border-box;
+  border: 1px solid #ffffff;
+  border-radius: 100px;
+}/*# sourceMappingURL=main.css.map */

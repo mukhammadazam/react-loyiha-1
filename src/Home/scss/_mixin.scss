@@ -1,0 +1,13 @@
+@mixin flexfunction($fd, $at, $jc, $wr) {
+    display: flex;
+    flex-direction: $fd;
+    align-items: $at;
+    justify-content: $jc;
+    flex-wrap: $wr;
+  }
+  @mixin BG($url, $br, $bs, $bp) {
+    background-image: $url;
+    background-repeat: $br;
+    background-size: $bs;
+    background-position: $bp;
+  }
