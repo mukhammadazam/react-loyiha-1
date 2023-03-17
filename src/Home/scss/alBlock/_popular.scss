@@ -1,0 +1,18 @@
+.popular {
+  padding-top: 120px;
+  &__enner {
+    padding-bottom: 60px;
+    &--title {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 48px;
+      line-height: 48px;
+      color: #bb2339;
+    }
+  }
+  &__img{
+    &:hover{
+        transform: scale(1.22);
+    }
+  }
+}

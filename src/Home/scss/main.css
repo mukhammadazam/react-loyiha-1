@@ -1,3 +1,7 @@
+* {
+  list-style: none;
+}
+
 @font-face {
   font-family: "Cera Round Pro";
   src: url(../../fonts/Fontspring-DEMO-ceraroundpro-regular.otf);
@@ -56,4 +60,20 @@
     background-size: cover;
     background-position: center;
   }
+}
+.popular {
+  padding-top: 120px;
+}
+.popular__enner {
+  padding-bottom: 60px;
+}
+.popular__enner--title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+  color: #bb2339;
+}
+.popular__img:hover {
+  transform: scale(1.22);
 }/*# sourceMappingURL=main.css.map */
