@@ -47,18 +47,26 @@ function BasicExample() {
                                 <div className='col-12 bg-light rounded col-sm-6 col-lg-3 row__cart justify-content-center'><img src={img3} />
                                     <p className='text-center'>Barbecue Shish kebab Shashlik Skewer</p>
                                     <div className='d-flex alingn-items-center justify-content-center'><img className='' src={img7} /></div>
+                                    <p className='row__leni'>$12.00</p>
+
                                 </div>
                                 <div className='col-12 bg-light rounded col-sm-6 col-lg-3 row__cart justify-content-center'><img src={img4} />
                                     <p className='text-center'>Barbecue Shish kebab Shashlik Skewer</p>
                                     <div className='d-flex alingn-items-center justify-content-center'><img className='' src={img7} /></div>
+                                    <p className='row__leni'>$12.00</p>
+
                                 </div>
                                 <div className='col-12 bg-light rounded col-sm-6 col-lg-3 row__cart justify-content-center'><img src={img5} />
                                     <p className='text-center'>Barbecue Shish kebab Shashlik Skewer</p>
                                     <div className='d-flex alingn-items-center justify-content-center'><img className='' src={img7} /></div>
+                                    <p className='row__leni'>$12.00</p>
+
                                 </div>
                                 <div className='col-12 bg-light rounded col-sm-6 col-lg-3 row__cart justify-content-center'><img src={img6} />
                                     <p className='text-center'>Barbecue Shish kebab Shashlik Skewer</p>
                                     <div className='d-flex alingn-items-center justify-content-center'><img className='' src={img7} /></div>
+                                    <p className='row__leni'>$12.00</p>
+
                                 </div>
                             </div>
                         </SwiperSlide>
@@ -67,18 +75,23 @@ function BasicExample() {
                                 <div className='col-12 col-sm-6 col-lg-3  row__cart justify-content-center'><img src={img3} />
                                     <p className='text-center'>Barbecue Shish kebab Shashlik Skewer</p>
                                     <div className='d-flex alingn-items-center justify-content-center'><img className='' src={img7} /></div>
+                                    <p className='row__leni'>$12.00</p>
                                 </div>
                                 <div className='col-12 col-sm-6 col-lg-3  row__cart justify-content-center'><img src={img4} />
                                     <p className='text-center'>Barbecue Shish kebab Shashlik Skewer</p>
                                     <div className='d-flex alingn-items-center justify-content-center'><img className='' src={img7} /></div>
+                                    
+                                    <p className='row__leni'>$12.00</p>
                                 </div>
                                 <div className='col-12 col-sm-6 col-lg-3  row__cart justify-content-center'><img src={img5} />
                                     <p className='text-center'>Barbecue Shish kebab Shashlik Skewer</p>
                                     <div className='d-flex alingn-items-center justify-content-center'><img className='' src={img7} /></div>
+                                    <p className='row__leni'>$12.00</p>
                                 </div>
                                 <div className='col-12 col-sm-6 col-lg-3  row__cart justify-content-center'><img src={img6} />
                                     <p className='text-center'>Barbecue Shish kebab Shashlik Skewer</p>
                                     <div className='d-flex alingn-items-center justify-content-center'><img className='' src={img7} /></div>
+                                    <p className='row__leni'>$12.00</p>
                                 </div>
                             </div>
                         </SwiperSlide>
@@ -87,18 +100,22 @@ function BasicExample() {
                                 <div className='col-12 col-sm-6 col-lg-3  row__cart justify-content-center'><img src={img3} />
                                     <p className='text-center'>Barbecue Shish kebab Shashlik Skewer</p>
                                     <div className='d-flex alingn-items-center justify-content-center'><img className='' src={img7} /></div>
+                                    <p className='row__leni'>$12.00</p>
                                 </div>
                                 <div className='col-12 col-sm-6 col-lg-3  row__cart justify-content-center'><img src={img4} />
                                     <p className='text-center'>Barbecue Shish kebab Shashlik Skewer</p>
                                     <div className='d-flex alingn-items-center justify-content-center'><img className='' src={img7} /></div>
+                                    <p className='row__leni'>$12.00</p>
                                 </div>
                                 <div className='col-12 col-sm-6 col-lg-3  row__cart justify-content-center'><img src={img5} />
                                     <p className='text-center'>Barbecue Shish kebab Shashlik Skewer</p>
                                     <div className='d-flex alingn-items-center justify-content-center'><img className='' src={img7} /></div>
+                                    <p className='row__leni'>$12.00</p>
                                 </div>
                                 <div className='col-12 col-sm-6 col-lg-3  row__cart justify-content-center'><img src={img6} />
                                     <p className='text-center'>Barbecue Shish kebab Shashlik Skewer</p>
                                     <div className='d-flex alingn-items-center justify-content-center'><img className='' src={img7} /></div>
+                                    <p className='row__leni'>$12.00</p>
                                 </div>
                             </div>
                         </SwiperSlide>
@@ -107,18 +124,22 @@ function BasicExample() {
                                 <div className='col-12 col-sm-6 col-lg-3  row__cart justify-content-center'><img src={img3} />
                                     <p className='text-center'>Barbecue Shish kebab Shashlik Skewer</p>
                                     <div className='d-flex alingn-items-center justify-content-center'><img className='' src={img7} /></div>
+                                    <p className='row__leni'>$12.00</p>
                                 </div>
                                 <div className='col-12 col-sm-6 col-lg-3  row__cart justify-content-center'><img src={img4} />
                                     <p className='text-center'>Barbecue Shish kebab Shashlik Skewer</p>
                                     <div className='d-flex alingn-items-center justify-content-center'><img className='' src={img7} /></div>
+                                    <p className='row__leni'>$12.00</p>
                                 </div>
                                 <div className='col-12 col-sm-6 col-lg-3  row__cart justify-content-center'><img src={img5} />
                                     <p className='text-center'>Barbecue Shish kebab Shashlik Skewer</p>
                                     <div className='d-flex alingn-items-center justify-content-center'><img className='' src={img7} /></div>
+                                    <p className='row__leni'>$12.00</p>
                                 </div>
                                 <div className='col-12 col-sm-6 col-lg-3  row__cart justify-content-center'><img src={img6} />
                                     <p className='text-center'>Barbecue Shish kebab Shashlik Skewer</p>
                                     <div className='d-flex alingn-items-center justify-content-center'><img className='' src={img7} /></div>
+                                    <p className='row__leni'>$12.00</p>
                                 </div>
                             </div>
                         </SwiperSlide>

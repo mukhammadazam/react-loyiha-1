@@ -1,0 +1,12 @@
+.regular {
+  &__list {
+    &--item {
+      transition: all 2s ease;
+      &:hover {
+        background-color: #ff0000;
+        color: #fff;
+        transition: all 2s ease;
+      }
+    }
+  }
+}
