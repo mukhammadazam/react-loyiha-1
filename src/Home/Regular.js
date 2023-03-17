@@ -16,7 +16,7 @@ function BodyOnlyExample() {
             <div className="container">
                 <div className="regular">
                     <h2 className="regular__title">Our Regular Menu Pack</h2>
-                    <ul className="regular__list d-flex align-items-center justify-content-between">
+                    <ul className="regular__list d-flex align-items-center justify-content-between flex-wrap gap-4">
                         <li className="regular__list--item px-4 py-2 border border-danger border-2 rounded-pill">All</li>
                         <li className="regular__list--item px-4 py-2 border border-danger border-2 rounded-pill">Shawarma</li>
                         <li className="regular__list--item px-4 py-2 border border-danger border-2 rounded-pill">Turk Kebab</li>
@@ -26,7 +26,7 @@ function BodyOnlyExample() {
                         <li className="regular__list--item px-4 py-2 border border-danger border-2 rounded-pill">French fries Pizza</li>
                         <li className="regular__list--item px-4 py-2 border border-danger border-2 rounded-pill">Desserts</li>
                     </ul>
-                    <div className="regular__minu justify-content-lg-between justify-content-center justify-content-sm-center  row">
+                    <div className="regular__minu gap-3 justify-content-lg-between justify-content-center justify-content-sm-center  row">
                         <div className="regular__minu--item col-12 col-sm-6 col-lg-3">
                             <div className='d-flex align-items-center justify-content-center'><img src={png1} /></div>
                             <p className='text-center'>Barbecue Shish kebab Shashlik Skewer</p>
@@ -98,3 +98,7 @@ function BodyOnlyExample() {
 }
 
 export default BodyOnlyExample;
+
+const list = document.querySelectorAll('.regular__list--item');
+console.log(list);
+

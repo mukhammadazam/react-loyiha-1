@@ -9,13 +9,13 @@ function BasicExample() {
                 <Navbar.Brand href="#home"><img src={logo} /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="ms-auto bg-danger w-25">
+                    <Nav className="ms-auto bg-danger  ">
                         <Nav.Link className='text-white' href="#home">Menu</Nav.Link>
                         <Nav.Link className='text-white' href="#link">News</Nav.Link>
                         <Nav.Link className='text-white' href="#link">About Us</Nav.Link>
                         <Nav.Link className='text-white' href="#link">Contact Us</Nav.Link>
                         <Nav.Link className='text-white border rounded-pill border-light border-2 px-3' href="#link"> Log in </Nav.Link>
-                      
+
                     </Nav>
                 </Navbar.Collapse>
             </Container>
