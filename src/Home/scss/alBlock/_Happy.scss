@@ -1,0 +1,52 @@
+.Happy-site {
+  background-color: #f4f4f4;
+  padding-top: 100px;
+}
+.happy {
+  &__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    color: #242424;
+    text-align: center;
+  }
+  &__title1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 130%;
+    text-align: center;
+    color: #242424;
+  }
+  &__row {
+    padding-top: 60px;
+    padding-bottom: 40px;
+  }
+  &__item {
+    max-width: 410px;
+    width: 100%;
+    padding: 30px 20px;
+    padding-right: 30px;
+    background-color: #fff;
+    &--title {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 26px;
+      color: #333333;
+    }
+  }
+  &__list{
+    padding: 0;
+    margin: 0;
+  }
+  &__input{
+    outline: none;
+  }
+  .carousel-control-next-icon{
+    background-color:red;
+    position: absolute;
+right: -50px;
+  }
+}

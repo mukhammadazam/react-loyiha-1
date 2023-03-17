@@ -1,5 +1,7 @@
 * {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 @font-face {
@@ -143,4 +145,56 @@
 .regular__minu--text:hover {
   transition: all 2s ease;
   color: #fff;
+}
+
+.Happy-site {
+  background-color: #f4f4f4;
+  padding-top: 100px;
+}
+
+.happy__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  color: #242424;
+  text-align: center;
+}
+.happy__title1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 130%;
+  text-align: center;
+  color: #242424;
+}
+.happy__row {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.happy__item {
+  max-width: 410px;
+  width: 100%;
+  padding: 30px 20px;
+  padding-right: 30px;
+  background-color: #fff;
+}
+.happy__item--title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  color: #333333;
+}
+.happy__list {
+  padding: 0;
+  margin: 0;
+}
+.happy__input {
+  outline: none;
+}
+.happy .carousel-control-next-icon {
+  background-color: red;
+  position: absolute;
+  right: -50px;
 }/*# sourceMappingURL=main.css.map */
