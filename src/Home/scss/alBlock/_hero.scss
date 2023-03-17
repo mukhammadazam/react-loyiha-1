@@ -47,6 +47,13 @@
 }
 @media screen and (max-width: 992px) {
     .wrapper{
-        @include BG(url(	https://www.shutterstock.com/image-photo/shashlik-260nw-445967563.jpg),no-repeat,cover,center)
+        @include BG(url(https://jamesandeverett.com/wp-content/uploads/2016/02/russian_shashlik_1.jpg),no-repeat,cover,center)
         }
+        
+}
+@media screen and (max-width: 450px){
+  .wrapper{
+    width: 428px;
+    @include BG(url(https://jamesandeverett.com/wp-content/uploads/2016/02/russian_shashlik_1.jpg),no-repeat,cover,center)
+    }
 }

@@ -50,3 +50,14 @@
     right: -50px;
   }
 }
+@media screen and (max-width: 450px) {
+  .Happy-site {
+    width: 428px;
+  }
+  .carousel-control-next-icon {
+    display: none;
+  }
+  .carousel-control-prev-icon {
+    background-color: red;
+  }
+}

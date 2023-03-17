@@ -57,7 +57,16 @@
 
 @media screen and (max-width: 992px) {
   .wrapper {
-    background-image: url(https://www.shutterstock.com/image-photo/shashlik-260nw-445967563.jpg);
+    background-image: url(https://jamesandeverett.com/wp-content/uploads/2016/02/russian_shashlik_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+@media screen and (max-width: 450px) {
+  .wrapper {
+    width: 428px;
+    background-image: url(https://jamesandeverett.com/wp-content/uploads/2016/02/russian_shashlik_1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -197,4 +206,16 @@
   background-color: red;
   position: absolute;
   right: -50px;
+}
+
+@media screen and (max-width: 450px) {
+  .Happy-site {
+    width: 428px;
+  }
+  .carousel-control-next-icon {
+    display: none;
+  }
+  .carousel-control-prev-icon {
+    background-color: red;
+  }
 }/*# sourceMappingURL=main.css.map */
