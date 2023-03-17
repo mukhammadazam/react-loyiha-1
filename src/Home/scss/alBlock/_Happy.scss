@@ -21,7 +21,7 @@
   }
   &__row {
     padding-top: 60px;
-    padding-bottom: 40px;
+    padding-bottom: 100px;
   }
   &__item {
     max-width: 410px;
@@ -37,16 +37,16 @@
       color: #333333;
     }
   }
-  &__list{
+  &__list {
     padding: 0;
     margin: 0;
   }
-  &__input{
+  &__input {
     outline: none;
   }
-  .carousel-control-next-icon{
-    background-color:red;
+  .carousel-control-next-icon {
+    background-color: red;
     position: absolute;
-right: -50px;
+    right: -50px;
   }
 }
