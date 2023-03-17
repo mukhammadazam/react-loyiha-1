@@ -3,10 +3,6 @@
   src: url(../../fonts/Fontspring-DEMO-ceraroundpro-regular.otf);
 }
 .hero {
-  background-image: url(../../imges/takoyshashhlik.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   padding-top: 171px;
   padding-bottom: 300px;
 }
@@ -51,4 +47,13 @@
 }
 .hero__img {
   left: 100px;
+}
+
+@media screen and (max-width: 992px) {
+  .wrapper {
+    background-image: url(https://t4.ftcdn.net/jpg/00/84/46/99/360_F_84469998_OZXqGIt5WrbOip3gPBDyrjfo15Mda5zp.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -1,5 +1,5 @@
+
 .hero {
-  @include BG(url(../../imges/takoyshashhlik.png), no-repeat, cover, center);
   padding-top: 171px;
   padding-bottom: 300px;
   &__leni {
@@ -46,4 +46,7 @@
   }
 }
 @media screen and (max-width: 992px) {
+    .wrapper{
+        @include BG(url(https://t4.ftcdn.net/jpg/00/84/46/99/360_F_84469998_OZXqGIt5WrbOip3gPBDyrjfo15Mda5zp.jpg),no-repeat,cover,center)
+        }
 }

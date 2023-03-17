@@ -4,7 +4,7 @@ import shashlik from './imges/takoyshashhlik.png'
 function MenuAlignResponsiveExample() {
     return (
         <>
-            <div className='bg-danger' >
+            <div className='bg-danger wrapper' >
                 <div className='container d-flex align-items-center justify-content-center'>
                     <div className='hero-site d-flex  justify-content-center  align-items-start justify-content-between'>
                         <div className='hero'>
