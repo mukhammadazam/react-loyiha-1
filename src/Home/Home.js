@@ -9,7 +9,7 @@ function BasicExample() {
                 <Navbar.Brand href="#home"><img src={logo} /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="ms-auto">
+                    <Nav className="ms-auto bg-danger w-25">
                         <Nav.Link className='text-white' href="#home">Menu</Nav.Link>
                         <Nav.Link className='text-white' href="#link">News</Nav.Link>
                         <Nav.Link className='text-white' href="#link">About Us</Nav.Link>

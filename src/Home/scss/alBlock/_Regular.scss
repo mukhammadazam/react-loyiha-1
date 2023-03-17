@@ -19,4 +19,20 @@
       }
     }
   }
+  &__minu {
+    &--item {
+      width: 270px;
+      transition: all 2s ease;
+      &:hover {
+        background-color: red;
+        transition: all 2s ease;
+      }
+    }
+    &--text {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 33px;
+    }
+  }
 }

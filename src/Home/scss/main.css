@@ -120,4 +120,18 @@
   background-color: #ff0000;
   color: #fff;
   transition: all 2s ease;
+}
+.regular__minu--item {
+  width: 270px;
+  transition: all 2s ease;
+}
+.regular__minu--item:hover {
+  background-color: red;
+  transition: all 2s ease;
+}
+.regular__minu--text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
 }/*# sourceMappingURL=main.css.map */
