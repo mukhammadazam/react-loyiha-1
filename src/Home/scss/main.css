@@ -224,7 +224,10 @@ body {
   }
 }
 .news {
-  padding-top: 120px;
+  padding: 120px 0;
+}
+.news__row {
+  padding-bottom: 50px;
 }
 .news__item {
   max-width: 410px;
@@ -254,5 +257,27 @@ body {
   font-size: 16px;
   line-height: 16px;
   border: none;
-  color: #BB2339;
+  color: #bb2339;
+  background: transparent;
+}
+.news__wrapper-btn {
+  padding-bottom: 30px;
+}
+.news__button {
+  width: 149px;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 175%;
+  padding: 8px 32px;
+  border: 1px solid #bb2339;
+  border-radius: 100px;
+  color: #242424;
+}
+
+@media screen and (max-width: 500px) {
+  .news__img {
+    width: 90%;
+  }
 }/*# sourceMappingURL=main.css.map */

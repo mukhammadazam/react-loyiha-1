@@ -1,11 +1,14 @@
 .news {
-  padding-top: 120px;
- &__item{
+  padding: 120px 0;
+  &__row {
+    padding-bottom: 50px;
+  }
+  &__item {
     max-width: 410px;
     width: 100%;
     border: 1px solid rgba(36, 36, 36, 0.1);
     border-radius: 14px;
- }
+  }
   &__text {
     font-style: normal;
     font-weight: 700;
@@ -22,12 +25,35 @@
     color: #bb2339;
     padding-bottom: 60px;
   }
-  &__btn{
+  &__btn {
     font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 16px;
-border: none;
-color: #BB2339;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    border: none;
+    color: #bb2339;
+    background: transparent;
+  }
+  &__wrapper-btn {
+    padding-bottom: 30px;
+  }
+  &__button {
+    width: 149px;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 175%;
+    padding: 8px 32px;
+    border: 1px solid #bb2339;
+    border-radius: 100px;
+    color: #242424;
+  }
+}
+@media screen and (max-width: 500px) {
+  .news {
+    &__img {
+      width: 90%;
+    }
   }
 }
