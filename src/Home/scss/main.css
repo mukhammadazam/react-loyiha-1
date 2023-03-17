@@ -55,12 +55,17 @@
 
 @media screen and (max-width: 992px) {
   .wrapper {
-    background-image: url(https://t4.ftcdn.net/jpg/00/84/46/99/360_F_84469998_OZXqGIt5WrbOip3gPBDyrjfo15Mda5zp.jpg);
+    background-image: url(https://www.shutterstock.com/image-photo/shashlik-260nw-445967563.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
   }
 }
+.bground {
+  background-color: #f8f8f8;
+  padding-bottom: 120px;
+}
+
 .popular {
   padding-top: 120px;
 }
@@ -76,4 +81,12 @@
 }
 .popular__img:hover {
   transform: scale(1.22);
+}
+.popular .row {
+  padding: 0 50px;
+  padding-bottom: 50px;
+}
+.popular .row__cart {
+  width: 270px;
+  margin: 0 auto;
 }/*# sourceMappingURL=main.css.map */
