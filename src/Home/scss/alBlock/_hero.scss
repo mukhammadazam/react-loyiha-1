@@ -28,5 +28,69 @@
     box-sizing: border-box;
     border: 1px solid #ffffff;
     border-radius: 100px;
+    color: #fff;
+    background: transparent;
+    transition: all 2s ease;
+    &:hover{
+    transition: all 2s ease;
+    border: 1px solid red;
+    background-color: #fff;
+    color: red;
+
+    }
   }
+  &__img{
+    left: 100px;
+  }
+}
+@media screen and (max-width:768px){
+    .hero {
+        padding-top: 101px;
+        padding-bottom: 100px;
+      
+        &__leni {
+          font-style: normal;
+          font-weight: 700;
+          margin: 0 auto;
+          font-size: 23px;
+          line-height: 130%;
+          padding-bottom: 25px;
+        }
+        &__title {
+          font-family: $font;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 90px;
+          line-height: 130%;
+          max-width: 555px;
+          width: 100%;
+          margin: 0 auto;
+          padding-bottom: 20px;
+        }
+        &__text {
+          max-width: 453px;
+          margin: 0 auto;
+          padding-bottom: 40px;
+        }
+        &__btn {
+            
+          padding: 8px 32px;
+          box-sizing: border-box;
+          border: 1px solid #ffffff;
+          border-radius: 100px;
+          color: #fff;
+          background: transparent;
+          transition: all 2s ease;
+          &:hover{
+          transition: all 2s ease;
+          border: 1px solid red;
+          background-color: #fff;
+          color: red;
+      
+          }
+        }
+        &__img{
+          left: 100px;
+        }
+      }  
 }
