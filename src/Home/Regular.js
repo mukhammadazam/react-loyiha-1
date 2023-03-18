@@ -99,6 +99,5 @@ function BodyOnlyExample() {
 
 export default BodyOnlyExample;
 
-const list = document.querySelectorAll('.regular__list--item');
 
 
