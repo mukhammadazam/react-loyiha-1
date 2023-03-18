@@ -41,7 +41,7 @@ const Happy = () => {
                                         <h6 className="happy__item--title ">Maria</h6>
                                         <p className="happy__item--text">Lorem ipsum dolor sit amet, consectetur adipiscing sit. auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisq...</p>
                                         <ul className="happy__list">
-                                            <li className=" d-flex align-items-center justify-content-start gap-4  "><input className='happy__input border-0' type='date' /> <div><img src={time} alt="happyimg" /> <span>11:15</span></div> <div><img src={kuz} alt="aafdddf" /> <span>222</span></div></li>
+                                            <li className=" d-flex align-items-center justify-content-start gap-4  "><input className='happy__input border-0' type='date' /> <div><img src={time} alt="happyimg" /> <span>11:15</span></div> <div><img src={kuz} alt="imghappy" /> <span>222</span></div></li>
                                         </ul>
                                     </div>
                                     <div className="col-12 happy__item col-lg-4 ">
