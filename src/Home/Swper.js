@@ -20,8 +20,8 @@ const swper = () => {
                 <div className='swper pb-5'>
                     <p className='swper__title text-center text-lg-start'>Instagram</p>
                     <h4 className='swper__title1 text-center text-lg-start'>Photo Gallery</h4>
-                    <p className='swper__text text-center text-lg-start'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.</p>
-                    <button className='swper__btn d-block'>View More</button>
+                    <p className='swper__text text-center text-lg-start '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.</p>
+                    <button className='swper__btn d-block d-xxl-inline mt-3'>View More</button>
                 </div>
                 <Swiper
                     modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -32,13 +32,13 @@ const swper = () => {
                     scrollbar={{ draggable: true }}
                     onSwiper={(swiper) => console.log(swiper)}
                     onSlideChange={() => console.log('slide change')}
-                    className='gap-1 swper-site__swr d-none d-lg-block'  >
+                    className='gap-1 w-75 swper-site__swr d-none d-lg-block'  >
+                    <SwiperSlide className='im'><img  src={lagmon} width='250' /></SwiperSlide>
                     <SwiperSlide><img src={viski} width='250' /></SwiperSlide>
                     <SwiperSlide><img src={tuxum} width='250' /></SwiperSlide>
                     <SwiperSlide><img src={lagmon} width='250' /></SwiperSlide>
-                    <SwiperSlide><img src={lagmon} width='250' /></SwiperSlide>
-                    <SwiperSlide><img src={lagmon} width='250' /></SwiperSlide>
-
+                    <SwiperSlide><img src={viski} width='250' /></SwiperSlide>
+                    <SwiperSlide><img src={tuxum} width='250' /></SwiperSlide>
                 </Swiper>
                 <Swiper
                     modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -50,7 +50,7 @@ const swper = () => {
                     onSwiper={(swiper) => console.log(swiper)}
                     onSlideChange={() => console.log('slide change')}
                     className='gap-1 swper-site__swr d-block d-lg-none'  >
-                    <SwiperSlide className='d-flex ps-5 align-items-center justify-content-center'><img className='d-block ps-5' src={viski} width='250' /></SwiperSlide>
+                    <SwiperSlide className='d-flex  align-items-center justify-content-center'><img className='d-block ' src={viski} width='250' /></SwiperSlide>
                     <SwiperSlide className='d-flex align-items-center justify-content-center'><img src={tuxum} width='250' /></SwiperSlide>
                     <SwiperSlide className='d-flex align-items-center justify-content-center'><img src={lagmon} width='250' /></SwiperSlide>
                     <SwiperSlide className='d-flex align-items-center justify-content-center'><img src={lagmon} width='250' /></SwiperSlide>

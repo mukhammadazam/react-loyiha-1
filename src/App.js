@@ -7,6 +7,7 @@ import Happy from './Home/Happy';
 import News from './Home/News';
 import Player from './Home/Player';
 import Swper from './Home/Swper';
+import Footer from './Home/Footer';
 function App() {
   return (
     <div>
@@ -18,6 +19,7 @@ function App() {
       <News />
       <Player />
       <Swper />
+      <Footer />
     </div>
 
   );

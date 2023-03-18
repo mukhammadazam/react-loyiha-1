@@ -328,6 +328,9 @@ body {
   font-size: 16px;
   line-height: 175%;
   color: #aaaaaa;
+  max-width: 492px;
+  width: 100%;
+  margin: 0 auto;
 }
 .swper__btn {
   font-style: normal;
@@ -344,6 +347,12 @@ body {
 .swper__btn:hover {
   background-color: red;
   color: #fff;
+}
+
+.swper-site .swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  padding: 10px;
 }
 
 @media screen and (max-width: 500px) {
