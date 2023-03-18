@@ -6,6 +6,7 @@ import Regular from './Home/Regular';
 import Happy from './Home/Happy';
 import News from './Home/News';
 import Player from './Home/Player';
+import Swper from './Home/Swper';
 function App() {
   return (
     <div>
@@ -16,6 +17,7 @@ function App() {
       <Happy />
       <News />
       <Player />
+      <Swper />
     </div>
 
   );

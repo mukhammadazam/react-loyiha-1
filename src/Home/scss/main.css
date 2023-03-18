@@ -62,7 +62,7 @@ body {
 
 @media screen and (max-width: 992px) {
   .wrapper {
-    background-image: url(https://jamesandeverett.com/wp-content/uploads/2016/02/russian_shashlik_1.jpg);
+    background-image: url(./../imges/takoyshashhlik.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -303,4 +303,11 @@ body {
     -o-object-fit: cover;
        object-fit: cover;
   }
+}
+.swper__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 130%;
+  color: #242424;
 }/*# sourceMappingURL=main.css.map */
