@@ -1,0 +1,56 @@
+.letter-site{
+    margin-top: 251px;
+    background-color: #bb2339;
+}
+.letter {
+    position: relative;
+    bottom: 150px;
+  padding: 64px 0;
+  background: #bb2339;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 22px 30px 95px 1px rgba(86, 86, 86, 0.2);
+  border-radius: 20px;
+  &__text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 130%;
+    color: #ffffff;
+  }
+  &__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 130%;
+    color: #ffffff;
+    padding-bottom: 64px;
+  }
+  &__input {
+    max-width: 635px;
+    width: 100%;
+    outline: none;
+    color: #ffffff;
+    padding: 12px 18px 12px;
+    background: transparent;
+    border: 1px solid rgba(245, 239, 219, 0.5);
+    border-radius: 100px;
+  }
+  ::placeholder {
+    color: #fff;
+  }
+
+  &__btn {
+    border: none;
+    padding: 12px 32px;
+    background: transparent;
+    border: 1px solid #ffffff;
+    transition: all 2s ease;
+    border-radius: 100px;
+    color: #ffffff;
+    &:hover {
+      background-color: #fff;
+      color: red;
+      transition: all 2s ease;
+    }
+  }
+}
