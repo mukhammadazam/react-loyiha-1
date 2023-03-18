@@ -273,7 +273,13 @@ body {
   padding: 8px 32px;
   border: 1px solid #bb2339;
   border-radius: 100px;
-  color: #242424;
+  color: #bb2339;
+  transition: all 2s ease;
+}
+.news__button:hover {
+  background-color: red;
+  color: #fff;
+  transition: all 2s ease;
 }
 
 @media screen and (max-width: 500px) {
