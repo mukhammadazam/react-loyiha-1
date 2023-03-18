@@ -7,7 +7,7 @@ const newsFun = () => {
                 <div className="news">
                     <p className="news__text text-center">News</p>
                     <h3 className="news__title text-center">Gerícht updates</h3>
-                    <div className="row news__row justify-content-lg-between justify-content-center">
+                    <div className="row gy-4 news__row justify-content-lg-between justify-content-center">
                         <div className='col-12 p-0 col-sm-12 col-lg-4 news__item'>
                             <div className='d-flex align-items-center justify-content-center'>  <img className='p-0 news__img' src={newsImg} /></div>
                             <h4 className='news__item--title pt-3 px-4'>Tips for prepping and caring for your grill</h4>

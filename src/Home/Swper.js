@@ -15,31 +15,50 @@ import viski from './imges/viski.png';
 
 const swper = () => {
     return (
-      <div className='container'>
-        <div className='swper'>
-            <strong className='swper__title'>Instagram</strong>
-            <h4 className='swper__title1'>Photo Gallery</h4>
-            <p className='swper__text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.</p>
-            <button className='swper__btn'>View More</button>
-        </div>
-          <Swiper
-             modules={[Navigation, Pagination, Scrollbar, A11y]}
-             spaceBetween={50}
-             slidesPerView={3}
-             navigation
-             pagination={{ clickable: true }}
-             scrollbar={{ draggable: true }}
-             onSwiper={(swiper) => console.log(swiper)}
-             onSlideChange={() => console.log('slide change')}
-        >
-            <SwiperSlide><img src={viski}/></SwiperSlide>
-            <SwiperSlide><img src={tuxum}/></SwiperSlide>
-            <SwiperSlide><img src={lagmon}/></SwiperSlide>
-            <SwiperSlide><img src={lagmon}/></SwiperSlide>
-            <SwiperSlide><img src={lagmon}/></SwiperSlide>
+        <div className='swper-site'>
+            <div className='container d-xxl-flex  align-items-xxl-center justify-content-xxl-center'>
+                <div className='swper pb-5'>
+                    <p className='swper__title text-center text-lg-start'>Instagram</p>
+                    <h4 className='swper__title1 text-center text-lg-start'>Photo Gallery</h4>
+                    <p className='swper__text text-center text-lg-start'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.</p>
+                    <button className='swper__btn d-block'>View More</button>
+                </div>
+                <Swiper
+                    modules={[Navigation, Pagination, Scrollbar, A11y]}
+                    spaceBetween={50}
+                    slidesPerView={3}
+                    navigation
+                    pagination={{ clickable: true }}
+                    scrollbar={{ draggable: true }}
+                    onSwiper={(swiper) => console.log(swiper)}
+                    onSlideChange={() => console.log('slide change')}
+                    className='gap-1 swper-site__swr d-none d-lg-block'  >
+                    <SwiperSlide><img src={viski} width='250' /></SwiperSlide>
+                    <SwiperSlide><img src={tuxum} width='250' /></SwiperSlide>
+                    <SwiperSlide><img src={lagmon} width='250' /></SwiperSlide>
+                    <SwiperSlide><img src={lagmon} width='250' /></SwiperSlide>
+                    <SwiperSlide><img src={lagmon} width='250' /></SwiperSlide>
 
-        </Swiper>
-      </div>
+                </Swiper>
+                <Swiper
+                    modules={[Navigation, Pagination, Scrollbar, A11y]}
+                    spaceBetween={50}
+                    slidesPerView={1}
+                    navigation
+                    pagination={{ clickable: true }}
+                    scrollbar={{ draggable: true }}
+                    onSwiper={(swiper) => console.log(swiper)}
+                    onSlideChange={() => console.log('slide change')}
+                    className='gap-1 swper-site__swr d-block d-lg-none'  >
+                    <SwiperSlide className='d-flex ps-5 align-items-center justify-content-center'><img className='d-block ps-5' src={viski} width='250' /></SwiperSlide>
+                    <SwiperSlide className='d-flex align-items-center justify-content-center'><img src={tuxum} width='250' /></SwiperSlide>
+                    <SwiperSlide className='d-flex align-items-center justify-content-center'><img src={lagmon} width='250' /></SwiperSlide>
+                    <SwiperSlide className='d-flex align-items-center justify-content-center'><img src={lagmon} width='250' /></SwiperSlide>
+                    <SwiperSlide className='d-flex align-items-center justify-content-center'><img src={lagmon} width='250' /></SwiperSlide>
+
+                </Swiper>
+            </div>
+        </div>
     );
 };
 export default swper;

@@ -1,3 +1,8 @@
+.swper-site {
+  background-color: #f4f4f4;
+  padding: 130px 0;
+}
+
 .swper {
   &__title {
     font-style: normal;
@@ -5,5 +10,41 @@
     font-size: 23px;
     line-height: 130%;
     color: #242424;
+  }
+  &__title1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 130%;
+    padding: 25px 0;
+    color: #242424;
+  }
+  &__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    color: #aaaaaa;
+  }
+  &__btn {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 175%;
+    color: #242424;
+    border: 1px solid #bb2339;
+    border-radius: 100px;
+    padding: 8px 32px;
+    width: 149px;
+    margin: 0 auto;
+    &:hover {
+      background-color: red;
+      color: #fff;
+    }
+  }
+}
+@media screen and (max-width: 500px) {
+  .swper-site {
+    width: 428px;
   }
 }

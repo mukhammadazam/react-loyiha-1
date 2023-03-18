@@ -6,12 +6,13 @@
     object-fit: cover;
   }
 }
-@media screen and (max-width:500px) {
-    .img {
-        &__inner {
-          height: 763px;
-          width: 435px;
-          object-fit: cover;
-        }
-      }  
+@media screen and (max-width: 500px) {
+  .img {
+    &__inner {
+      height: 763px;
+      width: 428px;
+
+     
+    }
+  }
 }
