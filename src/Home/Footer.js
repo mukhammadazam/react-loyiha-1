@@ -19,8 +19,8 @@ const foterFun = () => {
                         <div className="col-12 col-md-4 justify-content-center justify-content-md-between">
                             <p className="contact__title">Contact Us</p>
                             <p className="contact__text">9 W 53rd St, London, NY 10019, UK</p>
-                            <a className='text-decoration-none d-block' href="#">+1 212-344-1230</a>
-                            <a className='text-decoration-none d-block' href="#">+1 212-555-1230</a>
+                            <a className='text-decoration-none d-block' href="tel:+9989199509001">+1 212-344-1230</a>
+                            <a className='text-decoration-none d-block' href="tel:+9989199509001">+1 212-555-1230</a>
                         </div>
                     </div>
                 </div>
