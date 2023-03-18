@@ -367,7 +367,7 @@ body {
 
 .letter {
   position: relative;
-  bottom: 150px;
+  bottom: 221px;
   padding: 64px 0;
   background: #bb2339;
   border: 1px solid rgba(255, 255, 255, 0.4);
@@ -387,7 +387,7 @@ body {
   font-size: 48px;
   line-height: 130%;
   color: #ffffff;
-  padding-bottom: 64px;
+  padding-bottom: 16px;
 }
 .letter__input {
   max-width: 635px;
@@ -418,4 +418,31 @@ body {
   background-color: #fff;
   color: red;
   transition: all 2s ease;
+}
+.letter__text1 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 175%;
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: 64px;
+}
+
+.contact {
+  padding-bottom: 50px;
+}
+.contact__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 130%;
+  color: #ffffff;
+}
+.contact__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
 }/*# sourceMappingURL=main.css.map */

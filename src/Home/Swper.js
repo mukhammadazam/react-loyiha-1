@@ -33,12 +33,12 @@ const swper = () => {
                     onSwiper={(swiper) => console.log(swiper)}
                     onSlideChange={() => console.log('slide change')}
                     className='gap-1 w-75 swper-site__swr d-none d-lg-block'  >
-                    <SwiperSlide className='im'><img  src={lagmon} width='250' /></SwiperSlide>
-                    <SwiperSlide><img src={viski} width='250' /></SwiperSlide>
-                    <SwiperSlide><img src={tuxum} width='250' /></SwiperSlide>
-                    <SwiperSlide><img src={lagmon} width='250' /></SwiperSlide>
-                    <SwiperSlide><img src={viski} width='250' /></SwiperSlide>
-                    <SwiperSlide><img src={tuxum} width='250' /></SwiperSlide>
+                    <SwiperSlide className='im'><img src={lagmon} width='250' alt="galery" /></SwiperSlide>
+                    <SwiperSlide><img src={viski} width='250' alt="galery" /></SwiperSlide>
+                    <SwiperSlide><img src={tuxum} width='250' alt="galery" /></SwiperSlide>
+                    <SwiperSlide><img src={lagmon} width='250' alt="galery" /></SwiperSlide>
+                    <SwiperSlide><img src={viski} width='250' alt="galery" /></SwiperSlide>
+                    <SwiperSlide><img src={tuxum} width='250' alt="galery" /></SwiperSlide>
                 </Swiper>
                 <Swiper
                     modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -50,11 +50,11 @@ const swper = () => {
                     onSwiper={(swiper) => console.log(swiper)}
                     onSlideChange={() => console.log('slide change')}
                     className='gap-1 swper-site__swr d-block d-lg-none'  >
-                    <SwiperSlide className='d-flex  align-items-center justify-content-center'><img className='d-block ' src={viski} width='250' /></SwiperSlide>
-                    <SwiperSlide className='d-flex align-items-center justify-content-center'><img src={tuxum} width='250' /></SwiperSlide>
-                    <SwiperSlide className='d-flex align-items-center justify-content-center'><img src={lagmon} width='250' /></SwiperSlide>
-                    <SwiperSlide className='d-flex align-items-center justify-content-center'><img src={lagmon} width='250' /></SwiperSlide>
-                    <SwiperSlide className='d-flex align-items-center justify-content-center'><img src={lagmon} width='250' /></SwiperSlide>
+                    <SwiperSlide className='d-flex  align-items-center justify-content-center'><img className='d-block ' src={viski} width='250' alt="galery" /></SwiperSlide>
+                    <SwiperSlide className='d-flex align-items-center justify-content-center'><img src={tuxum} width='250' alt="galery" /></SwiperSlide>
+                    <SwiperSlide className='d-flex align-items-center justify-content-center'><img src={lagmon} width='250' alt="galery" /></SwiperSlide>
+                    <SwiperSlide className='d-flex align-items-center justify-content-center'><img src={lagmon} width='250' alt="galery" /></SwiperSlide>
+                    <SwiperSlide className='d-flex align-items-center justify-content-center'><img src={lagmon} width='250' alt="galery" /></SwiperSlide>
 
                 </Swiper>
             </div>

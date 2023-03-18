@@ -28,64 +28,64 @@ function BodyOnlyExample() {
                     </ul>
                     <div className="regular__minu gap-3 justify-content-lg-between justify-content-center justify-content-sm-center  row">
                         <div className="regular__minu--item col-12 col-sm-6 col-lg-3">
-                            <div className='d-flex align-items-center justify-content-center'><img src={png1} /></div>
+                            <div className='d-flex align-items-center justify-content-center'><img src={png1} alt="ovqatlar" /></div>
                             <p className='text-center'>Barbecue Shish kebab Shashlik Skewer</p>
                             <p className='text-center regular__minu--text text-danger'>$12.00</p>
 
                         </div>
                         <div className="regular__minu--item col-12 col-sm-6 col-lg-3">
-                            <div className='d-flex align-items-center justify-content-center'><img src={png2} /></div>
+                            <div className='d-flex align-items-center justify-content-center'><img src={png2} alt="ovqatlar" /></div>
                             <p className='text-center'>Barbecue Shish kebab Shashlik Skewer</p>
                             <p className='text-center regular__minu--text text-danger'>$12.00</p>
 
                         </div>
                         <div className="regular__minu--item col-12 col-sm-6 col-lg-3">
-                            <div className='d-flex align-items-center justify-content-center'><img src={png3} /></div>
+                            <div className='d-flex align-items-center justify-content-center'><img src={png3} alt="ovqatlar" /></div>
                             <p className='text-center'>Barbecue Shish kebab Shashlik Skewer</p>
                             <p className='text-center regular__minu--text text-danger'>$12.00</p>
 
                         </div><div className="regular__minu--item col-12 col-sm-6 col-lg-3">
-                            <div className='d-flex align-items-center justify-content-center'><img src={png4} /></div>
+                            <div className='d-flex align-items-center justify-content-center'><img src={png4} alt="ovqatlar" /></div>
                             <p className='text-center'>Barbecue Shish kebab Shashlik Skewer</p>
                             <p className='text-center regular__minu--text text-danger'>$12.00</p>
 
                         </div><div className="regular__minu--item col-12 col-sm-6 col-lg-3">
-                            <div className='d-flex align-items-center justify-content-center'><img src={png5} /></div>
+                            <div className='d-flex align-items-center justify-content-center'><img src={png5} alt="ovqatlar" /></div>
                             <p className='text-center'>Barbecue Shish kebab Shashlik Skewer</p>
                             <p className='text-center regular__minu--text text-danger'>$12.00</p>
 
                         </div><div className="regular__minu--item col-12 col-sm-6 col-lg-3">
-                            <div className='d-flex align-items-center justify-content-center'><img src={png6} /></div>
+                            <div className='d-flex align-items-center justify-content-center'><img src={png6} alt="ovqatlar" /></div>
                             <p className='text-center'>Barbecue Shish kebab Shashlik Skewer</p>
                             <p className='text-center regular__minu--text text-danger'>$12.00</p>
 
                         </div><div className="regular__minu--item col-12 col-sm-6 col-lg-3">
-                            <div className='d-flex align-items-center justify-content-center'><img src={png7} /></div>
+                            <div className='d-flex align-items-center justify-content-center'><img src={png7} alt="ovqatlar" /></div>
                             <p className='text-center'>Barbecue Shish kebab Shashlik Skewer</p>
                             <p className='text-center regular__minu--text text-danger'>$12.00</p>
 
                         </div><div className="regular__minu--item col-12 col-sm-6 col-lg-3">
-                            <div className='d-flex align-items-center justify-content-center'><img src={png8} /></div>
+                            <div className='d-flex align-items-center justify-content-center'><img src={png8} alt="ovqatlar" /></div>
                             <p className='text-center'>Barbecue Shish kebab Shashlik Skewer</p>
                             <p className='text-center regular__minu--text text-danger'>$12.00</p>
 
                         </div><div className="regular__minu--item col-12 col-sm-6 col-lg-3">
-                            <div className='d-flex align-items-center justify-content-center'><img src={png9} /></div>
+                            <div className='d-flex align-items-center justify-content-center'><img src={png9} alt="ovqatlar" /></div>
                             <p className='text-center'>Barbecue Shish kebab Shashlik Skewer</p>
                             <p className='text-center regular__minu--text text-danger'>$12.00</p>
 
                         </div><div className="regular__minu--item col-12 col-sm-6 col-lg-3">
-                            <div className='d-flex align-items-center justify-content-center'><img src={png10} /></div>
+                            <div className='d-flex align-items-center justify-content-center'><img src={png10} alt="ovqatlar" /></div>
                             <p className='text-center'>Barbecue Shish kebab Shashlik Skewer</p>
                             <p className='text-center regular__minu--text text-danger'>$12.00</p>
 
                         </div><div className="regular__minu--item col-12 col-sm-6 col-lg-3">
-                            <div className='d-flex align-items-center justify-content-center'><img src={png11} /></div>
+                            <div className='d-flex align-items-center justify-content-center'><img src={png11} alt="ovqatlar" /></div>
                             <p className='text-center'>Barbecue Shish kebab Shashlik Skewer</p>
                             <p className='text-center regular__minu--text text-danger'>$12.00</p>
 
                         </div><div className="regular__minu--item col-12 col-sm-6 col-lg-3">
-                            <div className='d-flex align-items-center justify-content-center'><img src={png12} /></div>
+                            <div className='d-flex align-items-center justify-content-center'><img src={png12} alt="ovqatlar" /></div>
                             <p className='text-center'>Barbecue Shish kebab Shashlik Skewer</p>
                             <p className='text-center regular__minu--text text-danger'>$12.00</p>
 

@@ -1,10 +1,10 @@
-.letter-site{
-    margin-top: 251px;
-    background-color: #bb2339;
+.letter-site {
+  margin-top: 251px;
+  background-color: #bb2339;
 }
 .letter {
-    position: relative;
-    bottom: 150px;
+  position: relative;
+  bottom: 221px;
   padding: 64px 0;
   background: #bb2339;
   border: 1px solid rgba(255, 255, 255, 0.4);
@@ -23,7 +23,7 @@
     font-size: 48px;
     line-height: 130%;
     color: #ffffff;
-    padding-bottom: 64px;
+    padding-bottom: 16px;
   }
   &__input {
     max-width: 635px;
@@ -52,5 +52,31 @@
       color: red;
       transition: all 2s ease;
     }
+  }
+  &__text1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 64px;
+  }
+}
+.contact {
+    padding-bottom: 50px;
+  &__title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 130%;
+    color: #ffffff;
+  }
+  &__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
   }
 }

@@ -6,7 +6,7 @@ function BasicExample() {
     return (
         <Navbar className='fixed-top' bg="danger" expand="md" >
             <Container>
-                <Navbar.Brand href="#home"><img src={logo} /></Navbar.Brand>
+                <Navbar.Brand href="#home"><img src={logo} alt="navbar" /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto bg-danger  ">

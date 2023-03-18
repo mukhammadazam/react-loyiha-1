@@ -13,7 +13,7 @@ function MenuAlignResponsiveExample() {
                             <p className='text-white hero__text text-center ' >Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus </p>
                             <button className='hero__btn d-block ' >Explore Menu</button>
                         </div>
-                        <div className='pt-5 '> <img className='pt-5 hero__img d-none d-lg-block position-relative' src={shashlik} /></div>
+                        <div className='pt-5 '> <img className='pt-5 hero__img d-none d-lg-block position-relative' src={shashlik} alt="shashlik" /></div>
                     </div>
                 </div>
             </div>
