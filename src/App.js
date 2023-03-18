@@ -5,7 +5,7 @@ import Popular from './Home/Popular';
 import Regular from './Home/Regular';
 import Happy from './Home/Happy';
 import News from './Home/News';
-import Img from './Home/Img';
+import Player from './Home/Player';
 function App() {
   return (
     <div>
@@ -15,7 +15,7 @@ function App() {
       <Regular />
       <Happy />
       <News />
-      <Img />
+      <Player />
     </div>
 
   );

@@ -6,6 +6,7 @@
 
 body {
   overflow-x: hidden;
+  margin: 0 auto;
 }
 
 @font-face {
@@ -285,5 +286,21 @@ body {
 @media screen and (max-width: 500px) {
   .news__img {
     width: 90%;
+  }
+}
+.img__inner {
+  height: 763px;
+  max-width: 1920px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media screen and (max-width: 500px) {
+  .img__inner {
+    height: 763px;
+    width: 435px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }/*# sourceMappingURL=main.css.map */
