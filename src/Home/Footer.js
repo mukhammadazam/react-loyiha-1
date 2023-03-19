@@ -8,7 +8,7 @@ const foterFun = () => {
                     <p className="letter__text text-center">Newsletter</p>
                     <p className="letter__title text-center">Subscribe to Our Newsletter</p>
                     <p className="letter__text1">And never miss latest Updates!</p>
-                    <form className="d-flex align-items-center justify-content-center gap-5 ">
+                    <form className="d-flex align-items-center justify-content-center flex-wrap gap-5 ">
                         <input className="d-block letter__input text-white" type={"email"} placeholder="Email Address" />
                         <button className="letter__btn">Subscribe</button>
                     </form>

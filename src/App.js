@@ -8,6 +8,7 @@ import News from './Home/News';
 import Player from './Home/Player';
 import Swper from './Home/Swper';
 import Footer from './Home/Footer';
+import Appl from './Home/2-dars-task';
 function App() {
   return (
     <div>
@@ -20,6 +21,7 @@ function App() {
       <Player />
       <Swper />
       <Footer />
+      <Appl />
     </div>
 
   );
