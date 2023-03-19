@@ -64,7 +64,7 @@
   }
 }
 .contact {
-    padding-bottom: 50px;
+  padding-bottom: 50px;
   &__title {
     font-style: normal;
     font-weight: 400;
@@ -73,6 +73,13 @@
     color: #ffffff;
   }
   &__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+  }
+  &__link {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
