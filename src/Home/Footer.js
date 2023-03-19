@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import Footerlogo from './imges/Footerlogo.svg';
 import Footerfasbook from './imges/Footerfazbook.svg';
 import Footertwter from './imges/Footertwtter.svg';
@@ -5,6 +6,7 @@ import Footerinstagram from './imges/Footerinstagram.svg';
 
 
 const foterFun = () => {
+  
     return (
         <div className="letter-site">
             <div className="container">
@@ -28,7 +30,7 @@ const foterFun = () => {
                         </div>
                         <div className="col-12 col-md-4 justify-content-center justify-content-md-between">
                             <div className='d-flex align-items-center justify-content-center'><img src={Footerlogo} alt="Footerlogo" /></div>
-                            <p className="contact__text text-center">"The best way to find yourself is to lose yourself in the service of others.”</p>
+                            <p className="contact__text text-center pt-3">"The best way to find yourself is to lose yourself in the service of others.”</p>
                             <div className='d-flex align-items-center justify-content-center gap-3'>
                                 <a className='text-decoration-none d-block contact__link' href="https://www.google.com/search?q=fasbook&oq=fasbook&aqs=chrome..69i57j46i10i131i199i433i465i512j0i10i433i512j0i10i512l6.5773j0j7&sourceid=chrome&ie=UTF-8"><img src={Footerfasbook} alt="Footerfasbook" /></a>
                                 <a className='text-decoration-none d-block contact__link' href="https://twitter.com/?lang=ru"><img src={Footertwter} alt="Footerfasbook" /></a>
