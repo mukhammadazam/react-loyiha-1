@@ -1,5 +1,5 @@
 import { useState } from "react";
-import './Tod.scss'
+import "./Tod.scss";
 const Todo = () => {
   const [todo, setTodo] = useState(() => {
     const storeg = localStorage.getItem("erray");
@@ -9,7 +9,8 @@ const Todo = () => {
   const [nTodo1, setNtodo1] = useState("");
   const [nTodo2, setNtodo2] = useState("");
   const [nTodo3, setNtodo3] = useState("");
-
+  const [formAdd, setFormAdd] = useState(false);
+  const [editTodo, setEditTodo] = useState(null);
   const eventCHange = (e) => {
     setNtodo(e.target.value);
   };
@@ -24,11 +25,7 @@ const Todo = () => {
   };
   const submitFun = (e) => {
     e.preventDefault();
-    if (
-      !nTodo.trim() &&
-      nTodo1.trim() &&
-      nTodo3.trim() !== nTodo2.trim()
-    )
+    if (!nTodo.trim() && nTodo1.trim() && nTodo3.trim() !== nTodo2.trim())
       return;
     setTodo([
       ...todo,
@@ -46,9 +43,24 @@ const Todo = () => {
     setNtodo3("");
   };
   localStorage.setItem("erray", JSON.stringify(todo));
+  const delFun = (id) => {
+    const deleteUp = todo.filter((el) => el.id !== id);
+    setTodo(deleteUp);
+  };
+  const formbtn = () => {
+    setFormAdd(!formAdd);
+  };
+
   return (
     <div className="container pt-5">
-      <form onSubmit={submitFun} className="form">
+      <h1 className="title">ToDo list</h1>
+      <button onClick={formbtn} className="form__add">
+        form Add
+      </button>
+      <form
+        onSubmit={submitFun}
+        className={`${formAdd ? "d-block form" : "d-none "} `}
+      >
         <input
           className="d-block w-100 py-1 px-3 mb-5 border-top-0 border-start-0 border-end-0"
           name="firstName"
@@ -83,18 +95,24 @@ const Todo = () => {
         />
         <button className="form__btn">Add</button>
       </form>
-    <div className="row">
-     { todo.map((element)=>(
 
-     <div className="col" key={element.id}>
-      <h1 >{element.text}</h1>
-      <a href="#">{element.email}</a>
-      <h3 >{element.conPassword}</h3>
-      <h2 >{element.password}</h2>
-
-     </div>
-     ))}
-    </div>
+      <div className="row pb-5 justify-content-center justify-content-lg-between">
+        {todo.map((element) => (
+          <div className="col pt-5 row__col" key={element.id}>
+            <p className="text-center row__item">{element.text}</p>
+            <a className="text-center row__item d-block text-decoration-none">{element.email}</a>
+            <h3 className="text-center row__item">{element.conPassword}</h3>
+            <h2 className="text-center row__item">{element.password}</h2>
+            <h1 className="text-center row__item">author:Mukhammad A'zam</h1>
+            <button
+              className=" row__btn"
+              onClick={() => delFun(element.id)}
+            >
+              delete
+            </button>
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

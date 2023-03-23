@@ -2,6 +2,22 @@
   text-align: center;
   padding: 40px 0;
 }
+.form__add {
+  display: block;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border: none;
+  border: 2px solid rgb(3, 215, 3);
+  background-color: #0d97a9;
+  color: #fff;
+  padding: 10px 0;
+  &:hover{
+    border: 2px solid #0d97a9;
+    background-color: rgb(3, 215, 3);
+  }
+}
 .form {
   max-width: 600px;
   width: 100%;
@@ -17,5 +33,31 @@
     display: block;
     width: 150px;
     margin: 0 auto;
+  }
+}
+
+.row {
+ &__col{
+  height: 400px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+  
+ }
+  &__btn{
+display: block;
+    align-self: flex-end;
+    max-width:600px; 
+    width: 100%;
+    margin: 0 auto;
+    border: none;
+    border: 2px solid red;
+    padding: 10px 0;
+    color: #fff;
+    background-color: #220e0e;
+  }
+  &__item{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
   }
 }
