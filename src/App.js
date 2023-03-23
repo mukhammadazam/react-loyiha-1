@@ -9,7 +9,14 @@ import Player from './Home/Player';
 import Swper from './Home/Swper';
 import Footer from './Home/Footer';
 import Todo from './Lesson3/Todo';
+import Lesson4 from './lesson4/Lesson4';
+import Til from './lesson4/Til';
 function App() {
+  const { t, i18n } = useTranslation();
+
+  const handleChangeLaguage = (language) => {
+    i18n.changeLanguage(language)
+  }
   return (
     <div>
       <Home />
@@ -22,6 +29,12 @@ function App() {
       <Swper />
       <Footer />
       <Todo />
+      <Lesson4 />
+      <Til />
+      
+    <div>
+  
+    </div>
     </div>
 
   );
