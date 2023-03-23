@@ -1,0 +1,21 @@
+.title {
+  text-align: center;
+  padding: 40px 0;
+}
+.form {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  input {
+    outline: none;
+  }
+  &__btn {
+    border: none;
+    background-color: #077eae;
+    color: #fff;
+    padding: 10px 0;
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+  }
+}
